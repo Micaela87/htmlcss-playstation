@@ -28,7 +28,7 @@ header {
     color: white;
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 5rem;
 }
 
 #returnal img {
@@ -107,32 +107,63 @@ header {
     border: 1px solid #2a88d5;
 }
 
+/* PLAYSTATION 5 MOBILE VERSION */
+#play5 .title {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#play5 .title #no-limits {
+    color: #2184d3;
+    font-size: 1.2rem;
+}
+
+#play5 .subtitle {
+    color: #767676;
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    display: block;
+}
+
+#play5 button {
+    background-color: #2d64e6;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+}
+
+#play5 button a {
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+
+#play5 img {
+    width: 100%;
+    height: auto;
+}
+
+#accessories > *:hover {
+    border-bottom: 2px solid #0173ce;
+}
+
+#accessories h5 {
+    display: none;
+}
+
+/* PLAY5 MD VERSION */
+@media screen and (min-width: 768px) {
+    #accessories h5 {
+        display: block;
+    }
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
-    border: 1px solid black;
-    height: 100px;
-}
-
-#play5 {
-    background-color: darkcyan;
-    height: fit-content;
-}
-
-#play5-title [class*="col"] {
-    background-color: red;
-    border: 1px solid black;
-    height: 100px;
-}
-
-#description-play5 [class*="col"] {
-    background-color: blue;
-    border: 1px solid black;
-    height: 300px;
-}
-
-#accessories [class*="col"] {
-    background-color: yellow;
     border: 1px solid black;
     height: 100px;
 }
@@ -144,7 +175,7 @@ header [class*="col"] {
 
 #it-takes-two [class*="col"] {
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 300px;
 }
 
