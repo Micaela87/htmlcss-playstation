@@ -14,11 +14,10 @@ header [class*="col"] {
 
 #banner {
     background-color: chocolate;
-    height: fit-content;
 }
 
-#banner [class*="col"] {
-    background-color: burlywood;
+#image [class*="col"] {
+    background-color: grey;
     border: 1px solid black;
     height: 500px;
 }
@@ -34,20 +33,20 @@ header [class*="col"] {
     height: fit-content;
 }
 
-#play5 [class*="col"] {
-    background-color: burlywood;
+#play5-title [class*="col"] {
+    background-color: red;
     border: 1px solid black;
     height: 100px;
 }
 
 #description-play5 [class*="col"] {
-    background-color: burlywood;
+    background-color: blue;
     border: 1px solid black;
     height: 300px;
 }
 
 #accessories [class*="col"] {
-    background-color: burlywood;
+    background-color: yellow;
     border: 1px solid black;
     height: 100px;
 }
@@ -58,7 +57,7 @@ header [class*="col"] {
 }
 
 #it-takes-two [class*="col"] {
-    background-color: burlywood;
+    background-color: white;
     border: 1px solid black;
     height: 300px;
 }
@@ -69,7 +68,7 @@ header [class*="col"] {
 }
 
 #new-games [class*="col"] {
-    background-color: burlywood;
+    background-color: greenyellow;
     border: 1px solid black;
     height: 100px;
 }
