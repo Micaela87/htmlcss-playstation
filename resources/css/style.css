@@ -1,8 +1,86 @@
 /* general rules */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+}
 
-/* MOBILE VERSION */
+/* HEADER MOBILE VERSION */
 header {
     height: fit-content;
+}
+
+/* RETURNAL BANNER MOBILE VERSION */
+#banner {
+    background-image: url('../img/jumbo-bg.png');
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.container-relative {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+#returnal {
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+#returnal img {
+    width: 60%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+#returnal span {
+    display: block;
+    font-size: 2.5rem;
+    padding: 0 0 1rem 0;
+}
+
+#returnal p {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+#returnal button {
+    background-color: #cd3d0f;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+}
+
+#returnal button a {
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#returnal button:hover a {
+    border: 1px solid white;
+}
+
+/* RETURNAL BANNER LG VERSION */
+@media screen and (min-width: 992px) {
+    #returnal img {
+        width: 20%;
+    }
+    
+    #returnal span {
+        display: block;
+        font-size: 2rem;
+    }
+    
+    #returnal p {
+        width: 40%;
+    }
 }
 
 /* debugging rules */
@@ -10,16 +88,6 @@ header [class*="col"] {
     background-color: beige;
     border: 1px solid black;
     height: 100px;
-}
-
-#banner {
-    background-color: chocolate;
-}
-
-#image [class*="col"] {
-    background-color: grey;
-    border: 1px solid black;
-    height: 500px;
 }
 
 #games [class*="col"] {
