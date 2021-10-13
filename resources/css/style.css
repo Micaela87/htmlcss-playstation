@@ -177,20 +177,32 @@ header {
     background-size: cover;
 }
 
+/* new games */
+#new-games {
+    padding: 2rem 0;
+    color: white;
+    background-color: #1f1f1f;
+}
+
+#new-games span {
+    font-size: 1.3rem;
+    display: block;
+    padding: 0.5rem 0;
+}
+
+#new-games img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#new-games-list span {
+    font-size: 1rem;
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
-    border: 1px solid black;
-    height: 100px;
-}
-
-#new-games {
-    background-color: darkmagenta;
-    height: 200px;
-}
-
-#new-games [class*="col"] {
-    background-color: greenyellow;
     border: 1px solid black;
     height: 100px;
 }
