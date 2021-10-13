@@ -4,6 +4,47 @@ body {
     font-size: 10px;
 }
 
+.banner-general {
+    color: white;
+}
+
+.banner-general img {
+    width: 60%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+.banner-general span {
+    display: block;
+    font-size: 2.5rem;
+    padding: 0 0 1rem 0;
+}
+
+.banner-general p {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.banner-general button {
+    background-color: #cd3d0f;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+}
+
+.banner-general button a {
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+/* adds an internal border to the button */
+.banner-general button:hover a {
+    border: 1px solid white;
+}
+
 /* HEADER MOBILE VERSION */
 header {
     height: fit-content;
@@ -25,61 +66,23 @@ header {
 }
 
 #returnal {
-    color: white;
     position: absolute;
     left: 0;
     bottom: 5rem;
 }
 
-#returnal img {
-    width: 60%;
-    height: auto;
-    padding: 1rem 0;
-}
-
-#returnal span {
-    display: block;
-    font-size: 2.5rem;
-    padding: 0 0 1rem 0;
-}
-
-#returnal p {
-    width: 100%;
-    font-size: 1.3rem;
-}
-
-#returnal button {
-    background-color: #cd3d0f;
-    border-radius: 20px;
-    padding: 0.5rem;
-    border: none;
-}
-
-#returnal button a {
-    text-decoration: none;
-    color: white;
-    padding: 0.3rem 0.5rem;
-    border-radius: 20px;
-    font-size: 1rem;
-}
-
-/* adds an internal border to the button */
-#returnal button:hover a {
-    border: 1px solid white;
-}
-
 /* RETURNAL BANNER LG VERSION */
 @media screen and (min-width: 992px) {
-    #returnal img {
+    .banner-general img {
         width: 20%;
     }
     
-    #returnal span {
+    .banner-general span {
         display: block;
         font-size: 2rem;
     }
     
-    #returnal p {
+    .banner-general p {
         width: 40%;
     }
 }
@@ -108,6 +111,10 @@ header {
 }
 
 /* PLAYSTATION 5 MOBILE VERSION */
+#play5 {
+    padding: 2rem 0;
+}
+
 #play5 .title {
     padding: 2rem 0;
     text-align: center;
@@ -161,22 +168,20 @@ header {
     }
 }
 
+/* IT TAKES TWO MOBILE VERSION */
+#it-takes-two {
+    padding: 2rem 0;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
     border: 1px solid black;
     height: 100px;
-}
-
-#it-takes-two {
-    background-color: darkgreen;
-    height: fit-content;
-}
-
-#it-takes-two [class*="col"] {
-    background-color: white;
-    /* border: 1px solid black; */
-    height: 300px;
 }
 
 #new-games {
