@@ -63,6 +63,7 @@ header {
     font-size: 1rem;
 }
 
+/* adds an internal border to the button */
 #returnal button:hover a {
     border: 1px solid white;
 }
@@ -83,15 +84,32 @@ header {
     }
 }
 
+/* GAMES MOBILE VERSION */
+#games {
+    padding: 1rem 0 2rem 0;
+}
+
+#games .col img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 0.2rem;
+}
+
+/* moves up the images */
+#games .col img:hover {
+    position: relative;
+    bottom: 1rem;
+    left: 0;
+}
+
+#brd {
+    border: 1px solid #2a88d5;
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
-    border: 1px solid black;
-    height: 100px;
-}
-
-#games [class*="col"] {
-    background-color: burlywood;
     border: 1px solid black;
     height: 100px;
 }
