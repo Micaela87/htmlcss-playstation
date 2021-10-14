@@ -287,21 +287,63 @@ header {
     height: auto;
 }
 
+/* PLAYSTATION NOW BANNER MOBILE VERSION */
+#play-now {
+    background-color: #161c3b;
+    padding: 2rem 0;
+}
+
+#play-now img {
+    width: 60%;
+    height: auto;
+}
+
+#play-now p {
+    font-size: 1rem;
+    padding: 2rem 0 1rem 0;
+    color: white;
+}
+
+#play-now button {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+}
+
+#play-now button a {
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#play-now .hidden {
+    display: none;
+}
+
+/* PLAYSTATION PLUS BANNER MD VERSION */
+@media screen and (min-width: 768px) {
+    #play-now {
+        padding: 0;
+    }
+
+    #play-now .hidden {
+        display: block;
+    }
+
+    #play-now .hidden img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
     border: 1px solid black;
     height: 100px;
-}
-
-#play-now {
-    background-color: gold;
-}
-
-#play-now [class*="col"] {
-    background-color: burlywood;
-    border: 1px solid black;
-    height: 300px;
 }
 
 #social {
