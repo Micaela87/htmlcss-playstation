@@ -16,6 +16,14 @@
     list-style-type: none;
 }
 
+.dropdown-menu a span {
+    display: block;
+}
+
 .dropdown-item {
     padding: 0;
+}
+
+.sub-link {
+    padding: 0 0.5rem;
 }
