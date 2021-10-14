@@ -339,19 +339,20 @@ header {
     }
 }
 
+/* SOCIAL MEDIA MOBILE VERSION */
+#social {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#social img {
+    width: 100%;
+    height: auto;
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
-    border: 1px solid black;
-    height: 100px;
-}
-
-#social {
-    background-color: gray;
-}
-
-#social [class*="col"] {
-    background-color: burlywood;
     border: 1px solid black;
     height: 100px;
 }
