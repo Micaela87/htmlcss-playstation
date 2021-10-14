@@ -276,27 +276,22 @@ header {
     }
 }
 
+/* DISCOUNTS MOBILE VERSION */
+#discounts {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#discounts img {
+    width: 100%;
+    height: auto;
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
     border: 1px solid black;
     height: 100px;
-}
-
-#discounts {
-    background-color: firebrick;
-}
-
-#discounts [class*="col"] {
-    background-color: burlywood;
-    border: 1px solid black;
-    height: 100px;
-}
-
-#off-price [class*="col"] {
-    background-color: burlywood;
-    border: 1px solid black;
-    height: 300px;
 }
 
 #play-now {
