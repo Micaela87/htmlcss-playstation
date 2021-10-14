@@ -5,29 +5,406 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/navbar.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
     <title>PlayStation</title>
 </head>
 <body>
-    <!-- navbar -->
     <header>
-        <div class="container-fluid">
-            <!-- upper navbar -->
-            <div class="row">
-                <div class="col">
-
+        <!-- upper header -->
+        <!-- lower header -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!-- brand logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="./resources/img/play_logo.svg" alt="PS logo" width="30" height="24">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- start navbar left -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Giochi
+                        </a>
+                        <!-- start dropdown menu Giochi -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <!-- start first three dropdown items >> aligns contents vertically and horizontally on the same line -->
+                                <ul class="d-flex justify-content-center align-items-center" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                       <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                       <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                       <span>PS5</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- end first three dropdown items -->                                
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <!-- start second three dropdown items >> aligns contents horizontally and vertically on the same line -->
+                                <ul class="d-flex justify-content-center">
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end second three dropdown items -->                            
+                        </ul>
+                        <!-- end dropdown menu Giochi -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Hardware
+                        </a>
+                        <!-- start dropdown menu Hardware -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <!-- start first three dropdown items >> aligns contents vertically and horizontally on the same line -->
+                                <ul class="d-flex justify-content-center align-items-center" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                       <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                       <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                       <span>PS5</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- end first three dropdown items -->                                
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <!-- start second three dropdown items >> aligns contents horizontally and vertically on the same line -->
+                                <ul class="d-flex justify-content-center">
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end second three dropdown items -->                            
+                        </ul>
+                        <!-- end dropdown menu Hardware -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servizi
+                        </a>
+                        <!-- start dropdown menu Servizi -->
+                        <ul class="dropdown-menu">
+                            <!-- start first three dropdown items >> aligns contents vertically and horizontally on the same line -->                            
+                            <li>
+                                <ul class="d-flex justify-content-center align-items-center" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end first three dropdown items -->
+                            <li><hr class="dropdown-divider"></li>
+                            <!-- start second three dropdown items >> aligns contents horizontally and vertically on the same line -->                            
+                            <li>
+                                <ul class="d-flex justify-content-center">
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end second three dropdown items -->
+                        </ul>
+                        <!-- end dropdown menu Servizi -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Novità
+                        </a>
+                        <!-- start dropdown menu Novità -->
+                        <ul class="dropdown-menu">
+                            <!-- start first three dropdown items >> aligns contents vertically and horizontally on the same line -->                             
+                            <li>
+                                <ul class="d-flex justify-content-center align-items-center" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end first three dropdown items -->
+                            <li><hr class="dropdown-divider"></li>
+                            <!-- start second three dropdown items >> aligns contents vertically and horizontally on the same line -->                             
+                            <li>
+                                <ul class="d-flex justify-content-center">
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end second three dropdown items -->
+                        </ul>
+                        <!-- end dropdown menu Novità -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Fai acquisti
+                        </a>
+                        <!-- start dropdown menu Fai acquisti -->
+                        <ul class="dropdown-menu">
+                            <!-- start first three dropdown items >> aligns contents vertically and horizontally on the same line -->                             
+                            <li>
+                                <ul class="d-flex justify-content-center align-items-center" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end first three dropdown items -->
+                            <li><hr class="dropdown-divider"></li>
+                            <!-- start second three dropdown items >> aligns contents vertically and horizontally on the same line -->                             
+                            <li>
+                                <ul class="d-flex justify-content-center">
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end second three dropdown items -->
+                        </ul>
+                        <!-- end dropdown menu Fai acquisti -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Supporto
+                        </a>
+                        <!-- start dropdown menu Supporto -->
+                        <ul class="dropdown-menu">
+                            <!-- start first three dropdown items >> aligns contents vertically and horizontally on the same line -->                            
+                            <li>
+                                <ul class="d-flex justify-content-center align-items-center" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                    <span>PS5</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end first three dropdown items -->
+                            <li><hr class="dropdown-divider"></li>
+                            <!-- start second three dropdown items >> aligns contents vertically and horizontally on the same line -->                             
+                            <li>
+                                <ul class="d-flex justify-content-center">
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                    <li class="sub-link">
+                                        <a class="dropdown-item" href="#">
+                                            Sub link acquisti
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end second three dropdown items -->
+                        </ul>
+                        <!-- end dropdown menu Supporto -->
+                    </li>
+                </ul>
+                <!-- end navbar left -->
+                <!-- start navbar right -->
+                <div class="navbar-right">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                My PlayStation
+                            </a>
+                            <!-- start dropdown menu My PlayStation -->
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <!-- start first three dropdown items >> aligns contents vertically and horizontally on the same line -->
+                                    <ul class="d-flex justify-content-center align-items-center" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                        <span>PS5</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                        <span>PS5</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                        <span>PS5</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- end first three dropdown items -->                                
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <!-- start second three dropdown items >> aligns contents horizontally and vertically on the same line -->
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="sub-link">
+                                            <a class="dropdown-item" href="#">
+                                                Sub link acquisti
+                                            </a>
+                                        </li>
+                                        <li class="sub-link">
+                                            <a class="dropdown-item" href="#">
+                                                Sub link acquisti
+                                            </a>
+                                        </li>
+                                        <li class="sub-link">
+                                            <a class="dropdown-item" href="#">
+                                                Sub link acquisti
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- end second three dropdown items -->                            
+                            </ul>
+                            <!-- end dropdown menu My PlayStation -->
+                        </li>                    
+                    </ul>
+                    <button class="login">Accedi</button>
+                    <form action="" method="POST">
+                        <img id="search-lens" src="./resources/img/lens.svg" alt="search">
+                        <input type="text" id="search" name="search">
+                    </form>
                 </div>
+                <!-- end navbar right -->
+              </div>
             </div>
-            <!-- lower navbar -->
-            <div class="row">
-                <div class="col">
-
-                </div>
-                <div class="col-3">
-
-                </div>
-            </div>
-        </div>
+          </nav>
     </header>
     <!-- returnal banner -->
     <section id="banner">
@@ -353,5 +730,6 @@
         </section>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

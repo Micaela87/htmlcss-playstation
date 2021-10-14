@@ -1,6 +1,25 @@
+header {
+    font-family: 'Helvetica', sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: white;
+}
+
 .navbar-brand img {
     width: 100%;
     height: auto;
+}
+
+.navbar-collapse {
+    max-height: 220px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .dropdown {
@@ -10,6 +29,12 @@
 .dropdown-menu {
     width: 100%;
     text-align: center;
+    background-clip: border-box;
+    border-radius: 0;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
 }
 
 .dropdown-menu ul {
@@ -56,6 +81,7 @@ input {
     height: 35px;
 }
 
+/* NAVBAR LG VERSION */
 @media screen and (min-width: 992px) {
     .navbar-right {
         display: flex;
