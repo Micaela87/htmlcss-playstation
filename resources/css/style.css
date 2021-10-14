@@ -45,6 +45,18 @@ body {
     border: 1px solid white;
 }
 
+.title {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.subtitle {
+    color: #767676;
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    display: block;
+}
+
 /* HEADER MOBILE VERSION */
 header {
     height: fit-content;
@@ -115,21 +127,9 @@ header {
     padding: 2rem 0;
 }
 
-#play5 .title {
-    padding: 2rem 0;
-    text-align: center;
-}
-
 #play5 .title #no-limits {
     color: #2184d3;
     font-size: 1.2rem;
-}
-
-#play5 .subtitle {
-    color: #767676;
-    font-size: 1.5rem;
-    padding: 1.5rem 0;
-    display: block;
 }
 
 #play5 button {
@@ -177,7 +177,7 @@ header {
     background-size: cover;
 }
 
-/* new games */
+/* NEW GAMES MOBILE VERSION */
 #new-games {
     padding: 2rem 0;
     color: white;
@@ -200,27 +200,36 @@ header {
     font-size: 1rem;
 }
 
+/* PS4 MOBILE VERSION */
+#play4 {
+    padding: 2rem 0 4rem 0;
+}
+
+#play4 button {
+    background-color: #2d64e6;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+}
+
+#play4 button a {
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#play4 img {
+    width: 100%;
+    height: auto;
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
     border: 1px solid black;
     height: 100px;
-}
-
-#play4 {
-    background-color: darkturquoise;
-}
-
-#play4 [class*="col"] {
-    background-color: burlywood;
-    border: 1px solid black;
-    height: 100px;
-}
-
-#play4-accessories [class*="col"] {
-    background-color: burlywood;
-    border: 1px solid black;
-    height: 300px;
 }
 
 #play-plus {
