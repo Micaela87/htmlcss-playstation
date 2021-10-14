@@ -337,22 +337,66 @@
                 </ul>
                 <!-- end navbar left -->
                 <!-- start navbar right -->
-                <div class="d-flex align-items-center">
+                <div class="navbar-right">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                                My PlayStation
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <!-- start dropdown menu My PlayStation -->
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <!-- start first three dropdown items >> aligns contents vertically and horizontally on the same line -->
+                                    <ul class="d-flex justify-content-center align-items-center" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                        <span>PS5</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                        <span>PS5</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"><img src="./resources/img/play-menu-ico.png" alt="ps5">
+                                        <span>PS5</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- end first three dropdown items -->                                
+                                </li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <!-- start second three dropdown items >> aligns contents horizontally and vertically on the same line -->
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="sub-link">
+                                            <a class="dropdown-item" href="#">
+                                                Sub link acquisti
+                                            </a>
+                                        </li>
+                                        <li class="sub-link">
+                                            <a class="dropdown-item" href="#">
+                                                Sub link acquisti
+                                            </a>
+                                        </li>
+                                        <li class="sub-link">
+                                            <a class="dropdown-item" href="#">
+                                                Sub link acquisti
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- end second three dropdown items -->                            
                             </ul>
+                            <!-- end dropdown menu My PlayStation -->
                         </li>                    
                     </ul>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    <img src="./resources/img/lens.svg" alt="search">
+                    <button class="login">Accedi</button>
+                    <form action="" method="POST">
+                        <img id="search-lens" src="./resources/img/lens.svg" alt="search">
+                        <input type="text" id="search" name="search">
+                    </form>
                 </div>
                 <!-- end navbar right -->
               </div>
