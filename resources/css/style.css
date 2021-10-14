@@ -22,7 +22,7 @@ body {
 
 .banner-general p {
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .banner-general button {
@@ -225,21 +225,62 @@ header {
     height: auto;
 }
 
+/* PLAYSTATION PLUS BANNER MOBILE VERSION */
+#play-plus {
+    background-color: #bebcbb;
+    padding: 2rem 0;
+}
+
+#play-plus img {
+    width: 60%;
+    height: auto;
+}
+
+#play-plus p {
+    font-size: 1rem;
+    padding: 2rem 0 1rem 0;
+}
+
+#play-plus button {
+    background-color: #d9dadc;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+}
+
+#play-plus button a {
+    text-decoration: none;
+    color: #376ae4;
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#play-plus .hidden {
+    display: none;
+}
+
+/* PLAYSTATION PLUS BANNER MD VERSION */
+@media screen and (min-width: 768px) {
+    #play-plus {
+        padding: 0;
+    }
+
+    #play-plus .hidden {
+        display: block;
+    }
+
+    #play-plus .hidden img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
 /* debugging rules */
 header [class*="col"] {
     background-color: beige;
     border: 1px solid black;
     height: 100px;
-}
-
-#play-plus {
-    background-color: deeppink;
-}
-
-#play-plus [class*="col"] {
-    background-color: burlywood;
-    border: 1px solid black;
-    height: 300px;
 }
 
 #discounts {
