@@ -1,0 +1,21 @@
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+}
+
+.dropdown-item {
+    padding: 0;
+}
