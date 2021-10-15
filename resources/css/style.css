@@ -150,7 +150,6 @@ button:not(.login):hover {
     opacity: 0.5;
 }
 
-
 #accessories > *:hover {
     border-bottom: 2px solid #0173ce;
     opacity: 1;

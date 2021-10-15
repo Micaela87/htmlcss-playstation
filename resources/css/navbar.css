@@ -25,6 +25,14 @@ header {
     background-color: white;
 }
 
+.navbar-light .navbar-nav .nav-link, .nav-link:focus {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav, .navbar-light .navbar-nav .nav-link:hover {
+    color: #5884fd;
+}
+
 .navbar-brand img {
     width: 100%;
     height: auto;
@@ -34,10 +42,6 @@ header {
     max-height: 220px;
     overflow-y: scroll;
     overflow-x: hidden;
-}
-
-.dropdown {
-    position: static;
 }
 
 .dropdown-menu {
@@ -63,8 +67,14 @@ header {
     padding: 0;
 }
 
+/* my classes on bootstrap navbar */
 .sub-link {
     padding: 0 0.5rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent;
+    color: #5884fd;
 }
 
 .login {
