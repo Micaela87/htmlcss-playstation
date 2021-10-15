@@ -4,6 +4,70 @@ body {
     font-size: 10px;
 }
 
+/* NB: header and navbar rules are in navbar.css */
+
+/* general rules for sections */
+section {
+    padding: 2rem 0;
+}
+
+/* general rules for images */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* general rules for paragraphs */
+p {
+    font-size: 1rem;
+}
+
+/* general rules for buttons */
+button {
+    border-radius: 25px;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    margin: 0.1rem 0.1rem;
+}
+
+button span {
+    display: block;
+    padding: 0.3rem 0.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+/* blue-white buttons */
+.blue-white-btn {
+    background-color: #2d64e6;
+}
+
+.blue-white-btn span {
+    color: white;
+}
+
+/* red-white buttons */
+.banner-general button {
+    background-color: #cd3d0f;
+    margin: 0.1rem 0.1rem;
+}
+
+.banner-general button span {
+    color: white;
+}
+
+/* adds an internal border to the button, but the .login one */
+button:not(.login):hover span {
+    border: 1px solid white;
+    padding: 0.2rem 0.4rem;
+}
+
+button:not(.login):hover {
+    padding: 0.4rem 0.6rem;
+    margin: 0 0 0.1rem 0;
+}
+
+/* general rules for returnal and it takes two banner */
 .banner-general {
     color: white;
 }
@@ -14,42 +78,8 @@ body {
     padding: 1rem 0;
 }
 
-.banner-general span {
-    display: block;
-    font-size: 2.5rem;
-    padding: 0 0 1rem 0;
-}
-
 .banner-general p {
     width: 100%;
-    font-size: 1rem;
-}
-
-.banner-general button {
-    background-color: #cd3d0f;
-    border-radius: 25px;
-    padding: 0.3rem 0.5rem;
-    border: none;
-    margin: 0.1rem 0.1rem;
-}
-
-.banner-general button span {
-    display: block;
-    color: white;
-    padding: 0.3rem 0.5rem;
-    border-radius: 25px;
-    font-size: 1rem;
-}
-
-/* adds an internal border to the button */
-.banner-general button:hover span {
-    border: 1px solid white;
-    padding: 0.2rem 0.4rem;
-}
-
-.banner-general button:hover {
-    padding: 0.4rem 0.6rem;
-    margin: 0 0 0.1rem 0;
 }
 
 .title {
@@ -64,7 +94,7 @@ body {
     display: block;
 }
 
-/* RETURNAL BANNER MOBILE VERSION */
+/* RETURNAL BANNER */
 #banner {
     background-image: url('../img/jumbo-bg.png');
     background-position-x: center;
@@ -78,14 +108,8 @@ body {
    padding-top: 16rem; 
 }
 
-/* GAMES MOBILE VERSION */
-#games {
-    padding: 1rem 0 2rem 0;
-}
-
+/* GAMES */
 #games .col img {
-    width: 100%;
-    height: auto;
     border-radius: 10px;
     padding: 0.2rem;
 }
@@ -101,35 +125,10 @@ body {
     border: 1px solid #2a88d5;
 }
 
-/* PLAYSTATION 5 MOBILE VERSION */
-#play5 {
-    padding: 2rem 0;
-}
-
+/* PLAYSTATION 5 */
 #play5 .title #no-limits {
     color: #2184d3;
     font-size: 1.2rem;
-}
-
-#play5 button {
-    background-color: #2d64e6;
-    border-radius: 20px;
-    padding: 0.5rem;
-    border: none;
-}
-
-#play5 button a {
-    text-decoration: none;
-    color: white;
-    padding: 0.3rem 0.5rem;
-    border-radius: 20px;
-    font-size: 1rem;
-}
-
-
-#play5 img {
-    width: 100%;
-    height: auto;
 }
 
 #accessories > *:hover {
@@ -140,7 +139,7 @@ body {
     display: none;
 }
 
-/* IT TAKES TWO MOBILE VERSION */
+/* IT TAKES TWO */
 #it-takes-two {
     padding: 2rem 0;
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
@@ -149,9 +148,8 @@ body {
     background-size: cover;
 }
 
-/* NEW GAMES MOBILE VERSION */
+/* NEW GAMES */
 #new-games {
-    padding: 2rem 0;
     color: white;
     background-color: #1f1f1f;
 }
@@ -163,44 +161,16 @@ body {
 }
 
 #new-games img {
-    width: 100%;
-    height: auto;
     border-radius: 5px;
 }
 
-#new-games-list span {
+#new-games .col span {
     font-size: 1rem;
 }
 
-/* PS4 MOBILE VERSION */
-#play4 {
-    padding: 2rem 0 4rem 0;
-}
-
-#play4 button {
-    background-color: #2d64e6;
-    border-radius: 20px;
-    padding: 0.5rem;
-    border: none;
-}
-
-#play4 button a {
-    text-decoration: none;
-    color: white;
-    padding: 0.3rem 0.5rem;
-    border-radius: 20px;
-    font-size: 1rem;
-}
-
-#play4 img {
-    width: 100%;
-    height: auto;
-}
-
-/* PLAYSTATION PLUS BANNER MOBILE VERSION */
+/* PLAYSTATION PLUS BANNER */
 #play-plus {
     background-color: #bebcbb;
-    padding: 2rem 0;
 }
 
 #play-plus img {
@@ -209,44 +179,29 @@ body {
 }
 
 #play-plus p {
-    font-size: 1rem;
     padding: 2rem 0 1rem 0;
 }
 
 #play-plus button {
     background-color: #d9dadc;
-    border-radius: 20px;
-    padding: 0.5rem;
-    border: none;
 }
 
-#play-plus button a {
-    text-decoration: none;
+#play-plus button span {
     color: #376ae4;
-    padding: 0.3rem 0.5rem;
-    border-radius: 20px;
-    font-size: 1rem;
 }
 
 #play-plus .hidden {
     display: none;
 }
 
-/* DISCOUNTS MOBILE VERSION */
+/* DISCOUNTS */
 #discounts {
-    padding: 2rem 0;
     text-align: center;
 }
 
-#discounts img {
-    width: 100%;
-    height: auto;
-}
-
-/* PLAYSTATION NOW BANNER MOBILE VERSION */
+/* PLAYSTATION NOW BANNER */
 #play-now {
     background-color: #161c3b;
-    padding: 2rem 0;
 }
 
 #play-now img {
@@ -255,49 +210,35 @@ body {
 }
 
 #play-now p {
-    font-size: 1rem;
     padding: 2rem 0 1rem 0;
     color: white;
 }
 
 #play-now button {
     background-color: #f5f5f5;
-    border-radius: 20px;
-    padding: 0.5rem;
-    border: none;
 }
 
-#play-now button a {
-    text-decoration: none;
+#play-now button span {
     color: #1a1a1a;
-    padding: 0.3rem 0.5rem;
-    border-radius: 20px;
-    font-size: 1rem;
 }
 
 #play-now .hidden {
     display: none;
 }
 
-/* SOCIAL MEDIA MOBILE VERSION */
+/* SOCIAL MEDIA */
 #social {
-    padding: 2rem 0;
     text-align: center;
 }
 
-#social img {
-    width: 100%;
-    height: auto;
-}
-
-/* FOOTER MOBILE VERSION */
+/* FOOTER */
 footer {
     background-color: #00439c;
     color: white;
     padding: 2rem 0;
 }
 
-/* UPPER FOOTER MOBILE VERSION */
+/* UPPER FOOTER */
 #upper-footer .shared-nav-ps-logo {
     fill: white;
     display: block;
@@ -334,15 +275,11 @@ footer {
     padding: 0.2rem 0;
 }
 
-/* LOWER FOOTER MOBILE VERSION */
+/* LOWER FOOTER */
 #lower-footer img {
     width: 20%;
     height: auto;
     padding: 1rem 0;
-}
-
-#lower-footer p {
-    font-size: 1rem;
 }
 
 #lower-footer a {

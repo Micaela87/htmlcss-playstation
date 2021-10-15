@@ -61,6 +61,11 @@
         width: fit-content;
     }
 
+    /* hover on login */
+    .login:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
     #search-lens {
         position: static;
     }
@@ -72,11 +77,6 @@
     /* RETURNAL BANNER LG VERSION */
     .banner-general img {
         width: 20%;
-    }
-    
-    .banner-general span {
-        display: block;
-        font-size: 2rem;
     }
     
     .banner-general p {

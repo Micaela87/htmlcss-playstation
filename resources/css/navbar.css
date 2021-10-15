@@ -68,12 +68,8 @@ header {
 
 .login {
     background-color: black;
-    border-radius: 20px;
-    padding: 0.5rem;
-    border: none;
     color: white;
     margin: 1rem 0;
-    display: block;
     width: 55%;
 }
 
