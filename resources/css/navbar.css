@@ -93,34 +93,3 @@ input {
     width: 100%;
     height: 35px;
 }
-
-/* NAVBAR LG VERSION */
-@media screen and (min-width: 992px) {
-    .navbar-collapse {
-        max-height: none;
-        overflow-y: unset;
-        overflow-x: unset;
-    }
-
-    .navbar-right {
-        display: flex;
-        align-items: center;
-    }
-
-    form {
-        position: static;
-    }
-
-    .login {
-        margin: 0 1rem;
-        width: fit-content;
-    }
-
-    #search-lens {
-        position: static;
-    }
-
-    input {
-        display: none;
-    }
-}

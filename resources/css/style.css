@@ -78,22 +78,6 @@ body {
    padding-top: 16rem; 
 }
 
-/* RETURNAL BANNER LG VERSION */
-@media screen and (min-width: 992px) {
-    .banner-general img {
-        width: 20%;
-    }
-    
-    .banner-general span {
-        display: block;
-        font-size: 2rem;
-    }
-    
-    .banner-general p {
-        width: 40%;
-    }
-}
-
 /* GAMES MOBILE VERSION */
 #games {
     padding: 1rem 0 2rem 0;
@@ -154,13 +138,6 @@ body {
 
 #accessories h5 {
     display: none;
-}
-
-/* PLAY5 MD VERSION */
-@media screen and (min-width: 768px) {
-    #accessories h5 {
-        display: block;
-    }
 }
 
 /* IT TAKES TWO MOBILE VERSION */
@@ -255,22 +232,6 @@ body {
     display: none;
 }
 
-/* PLAYSTATION PLUS BANNER MD VERSION */
-@media screen and (min-width: 768px) {
-    #play-plus {
-        padding: 0;
-    }
-
-    #play-plus .hidden {
-        display: block;
-    }
-
-    #play-plus .hidden img {
-        height: 100%;
-        width: 100%;
-    }
-}
-
 /* DISCOUNTS MOBILE VERSION */
 #discounts {
     padding: 2rem 0;
@@ -318,22 +279,6 @@ body {
     display: none;
 }
 
-/* PLAYSTATION PLUS BANNER MD VERSION */
-@media screen and (min-width: 768px) {
-    #play-now {
-        padding: 0;
-    }
-
-    #play-now .hidden {
-        display: block;
-    }
-
-    #play-now .hidden img {
-        height: 100%;
-        width: 100%;
-    }
-}
-
 /* SOCIAL MEDIA MOBILE VERSION */
 #social {
     padding: 2rem 0;
@@ -343,22 +288,6 @@ body {
 #social img {
     width: 100%;
     height: auto;
-}
-
-/* SOCIAL MEDIA MD VERSION */
-@media screen and (min-width: 768px) {
-    .container-center {
-        max-width: 80%;
-        margin: 0 auto;
-    }
-}
-
-/* SOCIAL MEDIA LG VERSION */
-@media screen and (min-width: 992px) {
-    .container-center {
-        max-width: 60%;
-        margin: 0 auto;
-    }
 }
 
 /* FOOTER MOBILE VERSION */

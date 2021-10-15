@@ -1,0 +1,91 @@
+@media screen and (min-width: 768px) {
+    /* PLAY5 MD VERSION */
+    #accessories h5 {
+        display: block;
+    }
+
+    /* PLAYSTATION PLUS BANNER MD VERSION */
+    #play-plus {
+        padding: 0;
+    }
+
+    #play-plus .hidden {
+        display: block;
+    }
+
+    #play-plus .hidden img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* PLAYSTATION PLUS BANNER MD VERSION */
+    #play-now {
+        padding: 0;
+    }
+
+    #play-now .hidden {
+        display: block;
+    }
+
+    #play-now .hidden img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* SOCIAL MEDIA MD VERSION */
+    .container-center {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* NAVBAR LG VERSION */
+    .navbar-collapse {
+        max-height: none;
+        overflow-y: unset;
+        overflow-x: unset;
+    }
+
+    .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+
+    form {
+        position: static;
+    }
+
+    .login {
+        margin: 0 1rem;
+        width: fit-content;
+    }
+
+    #search-lens {
+        position: static;
+    }
+
+    input {
+        display: none;
+    }
+
+    /* RETURNAL BANNER LG VERSION */
+    .banner-general img {
+        width: 20%;
+    }
+    
+    .banner-general span {
+        display: block;
+        font-size: 2rem;
+    }
+    
+    .banner-general p {
+        width: 40%;
+    }
+
+    /* SOCIAL MEDIA LG VERSION */
+    .container-center {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
