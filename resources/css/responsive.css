@@ -4,30 +4,16 @@
         display: block;
     }
 
-    /* PLAYSTATION PLUS BANNER MD VERSION */
-    #play-plus {
+    /* PLAYSTATION PLUS AND PLAYSTATION NOW BANNER MD VERSION */
+    .play-plus-now {
         padding: 0;
     }
 
-    #play-plus .hidden {
+    .play-plus-now .hidden {
         display: block;
     }
 
-    #play-plus .hidden img {
-        height: 100%;
-        width: 100%;
-    }
-
-    /* PLAYSTATION PLUS BANNER MD VERSION */
-    #play-now {
-        padding: 0;
-    }
-
-    #play-now .hidden {
-        display: block;
-    }
-
-    #play-now .hidden img {
+    .play-plus-now .hidden img {
         height: 100%;
         width: 100%;
     }
