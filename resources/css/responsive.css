@@ -52,7 +52,7 @@
         background-color: rgba(0, 0, 0, 0.5);
     }
 
-    #search-lens {
+    .no-hover {
         position: static;
     }
 

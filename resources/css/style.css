@@ -57,12 +57,12 @@ button span {
 }
 
 /* adds an internal border to the button, but the .login one */
-button:not(.login):hover span {
+button:not(.no-hover):hover span {
     border: 1px solid white;
     padding: 0.2rem 0.4rem;
 }
 
-button:not(.login):hover {
+button:not(.no-hover):hover {
     padding: 0.4rem 0.6rem;
     margin: 0 0 0.1rem 0;
 }
