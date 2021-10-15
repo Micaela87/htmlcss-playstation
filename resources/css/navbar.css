@@ -7,6 +7,19 @@ header {
     font-size: 1rem;
 }
 
+.sony {
+    background-color: black;
+    height: 30px;
+    text-align: right;
+}
+
+.sony img {
+    height: 50%;
+    width: auto;
+    line-height: 30px;
+    margin-right: 0.5rem;
+}
+
 .navbar {
     background-color: white;
 }
@@ -83,6 +96,12 @@ input {
 
 /* NAVBAR LG VERSION */
 @media screen and (min-width: 992px) {
+    .navbar-collapse {
+        max-height: none;
+        overflow-y: unset;
+        overflow-x: unset;
+    }
+
     .navbar-right {
         display: flex;
         align-items: center;
